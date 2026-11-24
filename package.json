@@ -34,13 +34,13 @@
   },
   "homepage": "https://github.com/choco-latito29/discord-bot-tutorial#readme",
   "engines": {
-    "node": ">=22.0.0"
+    "node": ">=24.0.0"
   },
   "private": true,
   "dependencies": {
     "canvas": "^3.2.3",
-    "discord.js": "^14.27.0",
-    "dotenv": "^17.4.2",
+    "discord.js": "^14.28.1",
+    "dotenv": "^18.0.10",
     "moonlink.js": "^5.2.0"
   },
   "allowScripts": {
@@ -48,7 +48,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "eslint": "^10.10.0",
-    "globals": "^17.12.0"
+    "eslint": "^10.15.0",
+    "globals": "^17.14.0"
   }
 }

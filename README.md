@@ -7,7 +7,7 @@ A modular Discord bot built with **Discord.js v14** and **Node.js**.
 [![Deploy on Bot-Hosting.net](https://img.shields.io/badge/Deploy-Bot--Hosting.net-orange?logo=discord&logoColor=white)](https://bot-hosting.net/templates/discord-tutorial-2026)
 [![License: MIT](https://img.shields.io/github/license/choco-latito29/discord-bot-tutorial)](./LICENSE)
 [![discord.js](https://img.shields.io/badge/discord.js-v14-5865F2?logo=discord&logoColor=white)](https://discord.js.org)
-[![Node.js](https://img.shields.io/badge/node-22-339933?logo=node.js&logoColor=white)](https://nodejs.org)
+[![Node.js](https://img.shields.io/badge/node-24-339933?logo=node.js&logoColor=white)](https://nodejs.org)
 [![Lint](https://img.shields.io/github/actions/workflow/status/choco-latito29/discord-bot-tutorial/lint.yml?label=lint&logo=eslint)](./.github/workflows/lint.yml)
 [![Validate](https://img.shields.io/github/actions/workflow/status/choco-latito29/discord-bot-tutorial/validate.yml?label=validate&logo=githubactions&logoColor=white)](./.github/workflows/validate.yml)
 [![GitHub stars](https://img.shields.io/github/stars/choco-latito29/discord-bot-tutorial?style=flat&logo=github)](https://github.com/choco-latito29/discord-bot-tutorial/stargazers)
@@ -27,7 +27,8 @@ This project is a hands-on Discord bot built to learn `discord.js` v14 in practi
 Want to try it without setting it up locally? Deploy it in one click as a community template on Bot-Hosting.net:
 
 [![Deploy on Bot-Hosting.net](https://img.shields.io/badge/Deploy-Bot--Hosting.net-orange?logo=discord&logoColor=white)](https://bot-hosting.net/templates/discord-tutorial-2026)
-[![Deployments](https://img.shields.io/badge/deployments-150%2B-brightgreen)](https://bot-hosting.net/templates/discord-tutorial-2026)
+[![Deployments](https://img.shields.io/badge/deployments-2.952-brightgreen)](https://bot-hosting.net/templates/discord-tutorial-2026)
+[![Views](https://img.shields.io/badge/views-547-blue)](https://bot-hosting.net/templates/discord-tutorial-2026)
 [![Community Template](https://img.shields.io/badge/Bot--Hosting.net-Community%20Template-blue?logo=cloudflare&logoColor=white)](https://bot-hosting.net/templates/discord-tutorial-2026)
 
 👉 **[Click here to deploy](https://bot-hosting.net/templates/discord-tutorial-2026)**
@@ -43,7 +44,7 @@ Want to try it without setting it up locally? Deploy it in one click as a commun
 
 ## 📦 Requirements
 
-- 🟢 Node.js `22`
+- 🟢 Node.js `24`
 - 🤖 A Discord bot application ([Discord Developer Portal](https://discord.com/developers/applications))
 
 ## 🛠️ Setup

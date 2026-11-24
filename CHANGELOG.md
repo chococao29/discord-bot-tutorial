@@ -9,6 +9,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ### Added
 
 - Music system: Lavalink connection setup via `moonlink.js`, node event logging, track start/queue end handlers, and the `/play`, `/pause`, and `/continue` commands.
+- Temporary voice channels: added `voiceStateUpdate` handling in `temporal-voice.js` to create a temporary voice channel and delete it when empty.
+- `VOICE_CHANNEL_ID` and `voiceChannelId` configuration placeholders for the temporary voice channel trigger.
 - Blacklist system: `/blacklist add`, `/blacklist remove`, and `/blacklist list` subcommands, with automatic expiration handling in `interactionCreate`.
 - Guild join/leave logging (`guildCreate`, `guildDelete`) and an owner-only `/exit` command to make the bot leave a server by ID.
 - `.github` community health files (issue templates, funding, security policy, support) and CI workflows (`lint.yml`, `validate.yml`).
@@ -17,6 +19,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Changed
 
+- Added English inline comments to `temporal-voice.js` explaining temporary voice channel creation and cleanup.
+- Updated dependencies in `package.json`: `discord.js`, `dotenv`, `eslint`, and `globals`.
+- Raised the minimum Node.js version from 22 to 24 in `package.json` and `README.md`.
 - Renamed the `estados` array to `states` in `ready.js` for full English consistency across the codebase.
 - Renamed `/leave` command to `/exit`.
 - `OWNER_ID` and `LOGS_CHANNEL_ID` in `blacklist.js` and `exit.js` now read from environment variables instead of hardcoded placeholder strings.
